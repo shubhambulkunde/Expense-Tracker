@@ -1,65 +1,21 @@
-# Expense Tracker App 💰
+**Frontend**
 
-[![Java](https://img.shields.io/badge/Language-Java-orange)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/Framework-Spring%20Boot-brightgreen)](https://spring.io/projects/spring-boot)
-[![MySQL](https://img.shields.io/badge/Database-MySQL-blue)](https://www.mysql.com/)
-[![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-yellow)](#)
+1. Static HTML pages styled with CSS
+   
+2. Interactive functionality implemented using JavaScript
 
-A **full-stack Expense Tracker application** built with **Spring Boot**, **MySQL**, and **JavaScript**.  
-Users can register, log in, add transactions, and view dynamic reports for expenses, income, and balances.
+**Backend**
 
----
+1. RESTful APIs for user authentication and transaction management
 
-## Features
+2. MySQL database integration using Spring Data JPA
 
-### User
-- Register and login securely
-- Add income and expense transactions
-- View transaction history
-- See dynamic balance, income, and expense reports
+**User Functions**
 
-### Backend
-- RESTful APIs for user authentication and transaction management
-- Service and repository layers for clean architecture
-- MySQL database integration via Spring Data JPA
+1. Secure user registration and login
 
-### Frontend
-- Static HTML pages with CSS styling and JavaScript functionality
-- Responsive forms for login, registration, and transactions
-- Dynamic transaction reporting
+2. Add, edit, and delete income or expense transactions
 
----
+3. View complete transaction history
 
-## Tech Stack
-
-- **Backend:** Java, Spring Boot, Spring Data JPA, MySQL  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Database:** MySQL (Workbench used for development)  
-- **Build Tool:** Maven  
-- **IDE:** IntelliJ IDEA (Backend), VS Code (Frontend)  
-
----
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/Expense-Tracker.git
-```
-2. Import the backend Spring Boot project in IntelliJ IDEA.
-3. Set up MySQL database using MySQL Workbench:
-```bash
-CREATE DATABASE expense_tracker;
-```
-  Update application.properties with your database credentials.
-
-4. Run the Spring Boot backend application (it will start on http://localhost:8080 by default).  
-5. Open the frontend folder (`Expense-Tracker-Frontend/`) in VS Code or any code editor.  
-6. Open the HTML files in your browser or use a live server extension to view the app.  
-
----
-
-## Contributing
-
-Feel free to fork the repo, submit issues, or create pull requests.  
-Maintain the project structure and coding style.
+4. Display real-time balance with dynamic income and expense summaries
