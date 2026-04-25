@@ -19,3 +19,6 @@
 3. View complete transaction history
 
 4. Display real-time balance with dynamic income and expense summaries
+
+**Tech Stack**
+java, Mysql, express, HTML, CSS
